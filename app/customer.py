@@ -64,8 +64,8 @@ class Customer:
 
     def buy_products(self, shop: Shop) -> None:
         print(
-            f"Date: {datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n"
-            f"Thanks, {self.name}, for your purchase!\n"
+            f"Date: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n"
+            f"Thanks, {self.name}, for your purchase!"
         )
         print("You have bought:")
 
