@@ -66,8 +66,8 @@ class Customer:
         print(
             f"Date: {datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n"
             f"Thanks, {self.name}, for your purchase!\n"
-            f"You have bought:"
         )
+        print("You have bought:")
 
         total_cost = 0
         for product_name in self.product_cart:
